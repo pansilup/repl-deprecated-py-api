@@ -1,0 +1,46 @@
+scipy.rand,numpy.random.rand
+scipy.diag,numpy.diag
+scipy.misc.bytescale,skimage.util.img_as_ubyte
+scipy.misc.fromimage,numpy.asarray(im)
+scipy.misc.imread,imageio.imread, matplotlib.pyplot.imread
+scipy.misc.imresize,refer_project_doc
+scipy.misc.imrotate,skimage.transform.rotate
+scipy.misc.imsave,imageio.imwrite
+scipy.misc.imshow,matplotlib.pyplot.imshow
+scipy.misc.toimage,Image.fromarray
+scipy.misc.comb,scipy.special.comb
+scipy.misc.factorial,scipy.special.factorial
+scipy.misc.factorial2,scipy.special.factorial2
+scipy.misc.factorialk,scipy.special.factorialk
+scipy.misc.logsumexp,scipy.special.logsumexp
+scipy.misc.pade,scipy.interpolate.pade
+scipy.misc.info,numpy.info
+scipy.misc.source,numpy.source
+scipy.misc.who,numpy.who
+scipy.signal.windows.slepian,scipy.signal.windows.dpss
+scipy.stats.itemfreq,numpy.unique
+scipy.spatial.distance.matching,scipy.spatial.distance.hamming
+scipy.spatial.distance.wminkowski,scipy.spatial.distance.minkowski
+scipy.special.errprint,scipy.special.seterr
+scipy.special.sph_in,scipy.special.spherical_jn
+scipy.special.sph_jn,scipy.special.spherical_in
+scipy.special.sph_kn,scipy.special.spherical_kn
+scipy.special.sph_yn,scipy.special.spherical_yn
+scipy.constants.C2K, scipy.constants.convert_temperature
+scipy.constants.K2C, scipy.constants.convert_temperature
+scipy.constants.C2F, scipy.constants.convert_temperature
+scipy.constants.F2C, scipy.constants.convert_temperature
+scipy.constants.F2K, scipy.constants.convert_temperature
+scipy.constants.K2F, scipy.constants.convert_temperature
+scipy.stats.histogram,numpy.histogram
+scipy.stats.threshold,numpy.clip
+scipy.stats.chisqprob,stats.distributions.chi2.sf
+scipy.stats.betai,scipy.special.betainc 
+scipy.stats.pdf_fromgamma,statsmodels.distributions.ExpandedNormal
+scipy.stats.fastsort,numpy.argsort
+scipy.signal.hanning,scipy.signal.windows.hann
+scipy.linalg.expm2,scipy.linalg.expm
+scipy.linalg.expm3,scipy.linalg.expm
+scipy.stats.oneway,scipy.stats.f_oneway
+scipy.stats.glm,scipy.stats.ttest_ind
+scipy.stats.cmedian,numpy.median
